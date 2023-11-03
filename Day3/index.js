@@ -52,7 +52,7 @@
 
 
 // Array Methods.
-let arrMeth=[1,2,3,4,5];
+// let arrMeth=[1,2,3,4,5];
 
 // 1. pop();
 // let a=arrMeth.pop();
@@ -140,7 +140,7 @@ let arrMeth=[1,2,3,4,5];
 
 // Filter
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 // const evenNumbers= numbers.filter((num,index,arr) =>{
 //     console.log(index)
 //     return num <8;
@@ -156,14 +156,37 @@ const numbers = [1, 2, 3, 4, 5];
 // console.log(twice);
 
 
-const sum= numbers.reduce((acc, num, index, arr)=>{
+// const sum= numbers.reduce((acc, num, index, arr)=>{
 
-    console.log(`acc: ${acc} num:${num}  index:${index}  arr:${arr}`);
+//     console.log(`acc: ${acc} num:${num}  index:${index}  arr:${arr}`);
 
-    return acc+num;
+//     return acc+num;
 
-})
-console.log(sum);
+// })
+// console.log(sum);
+
+
+/////////////
+
+
+// Hoisting
+
+// console.log(a);
+// var a=10;
+// console.log(a);
+
+// function demoFunction(){
+//     var demotext="Hello";
+
+//     function innerFunction(){
+
+//     }
+//     innerFunction();
+//     return demotext;
+// }
+// console.log(msg)
+// var msg=demoFunction();
+// console.log(msg);
 
 
 
