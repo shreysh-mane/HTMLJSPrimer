@@ -138,6 +138,35 @@ let arrMeth=[1,2,3,4,5];
 
 
 
+// Filter
+
+const numbers = [1, 2, 3, 4, 5];
+// const evenNumbers= numbers.filter((num,index,arr) =>{
+//     console.log(index)
+//     return num <8;
+// });
+// console.log(evenNumbers); 
+// console.log(numbers); 
+
+// Map
+
+// const twice= numbers.map((num,index, arr)=>{
+//          return num/2;
+// });
+// console.log(twice);
+
+
+const sum= numbers.reduce((acc, num, index, arr)=>{
+
+    console.log(`acc: ${acc} num:${num}  index:${index}  arr:${arr}`);
+
+    return acc+num;
+
+})
+console.log(sum);
+
+
+
 
 
 
