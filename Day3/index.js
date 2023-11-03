@@ -13,6 +13,41 @@
 
 
 
+// Arrays in js:
+
+let arr=[1,2,3,4,"Shreysh"];
+
+// console.log(arr);
+
+// console.log(arr[5].a);
+
+// for of to access elements
+// for(let elements of arr){
+//     console.log(elements);
+// }
+
+// for in to access index
+// for(let index in arr){
+//     console.log(index);
+// }
+
+
+//forEach
+let sum=0;
+arr.forEach(function (element){
+    //operation 
+
+    // console.log(`Element: ${element}, Index: ${index}, ar: ${arr} `);
+    // console.log(`Element: ${element} `);
+    sum+=element; 
+}
+)
+// console.log(sum);
+
+
+arr.forEach((element,index)=>{
+    console.log(element);
+})
 
 
 
@@ -25,23 +60,8 @@
 
 
 
-// 
-//  array methods.
-
-let arr=[1,2,3,4,5,6]
-
-arr.unshift(0);
-console.log(arr.toString());
 
 
-let arr2=arr.filter((ele,index,array)=>
-    ele%2==0  )
-
-console.log(arr2);
 
 
-// const evenArr= arr.filter((ele)=>{
-//     return ele===2;
-// });
 
-// console.log(evenArr);
