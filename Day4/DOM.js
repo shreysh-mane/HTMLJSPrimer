@@ -55,12 +55,50 @@
 // const mainClassElementsAll = document.querySelectorAll('.mainDiv');
 // console.log(mainClassElementsAll);
 
-// const divElements= document.querySelectorAll('div');
+// const divElements= Text 4document.querySelectorAll('div');
 // console.log(divElements);
 
 
 // Change the text in DOM:
 
 // innerHTML 
-const id1ele=document.getElementById('i1');
-id1ele.innerHTML="Shreysh";
+// const id1ele=document.getElementById('i1');
+// id1ele.innerHTML="<b> Shreysh </b>";
+// // let text=id1ele.innerHTML;
+
+// // textContent
+
+// const id2ele=document.getElementById('i2');
+// id2ele.textContent="<b> Shreysh </b>";
+
+
+
+//
+
+// let users=["Shreysh","Mahesh","Rajan"];
+// const ul=document.getElementById('Posts');
+
+// for(let user of users)
+// ul.innerHTML = ul.innerHTML + `<li>${user} </li>`
+
+
+
+// Event Registration.
+
+function pClicked(){
+    console.log("Hello");
+}
+
+
+// Event Listeners
+const p2=document.getElementById('p2');
+
+function pClickedwithListener(){
+    console.log("Hello");
+}
+
+
+p2.addEventListener('click',pClickedwithListener);
+
+
+
