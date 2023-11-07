@@ -1,11 +1,11 @@
 
-var b=10;
+var a=10;
 // var a=10;
 function f1(){
 
    
     function f2(){
-        // var a=1;
+       
         console.log(a);
     }
     f2();

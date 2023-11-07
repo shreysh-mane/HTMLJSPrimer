@@ -64,7 +64,7 @@
 // innerHTML 
 // const id1ele=document.getElementById('i1');
 // id1ele.innerHTML="<b> Shreysh </b>";
-// // let text=id1ele.innerHTML;
+// let text=id1ele.innerHTML;
 
 // // textContent
 
@@ -85,20 +85,34 @@
 
 // Event Registration.
 
-function pClicked(){
-    console.log("Hello");
-}
+// function pClicked(){
+//     console.log("Hello");
+// }
 
 
 // Event Listeners
-const p2=document.getElementById('p2');
+// const p2=document.getElementById('p2');
 
-function pClickedwithListener(){
-    console.log("Hello");
-}
+// function pClickedwithListener(event){
+//     console.log("Hello");
+//     console.log(event);
+//     console.log('Event Type: ', event.type);
+//     console.log('Target Element: ', event.target);
+
+// }
 
 
-p2.addEventListener('click',pClickedwithListener);
+// p2.addEventListener('click',pClickedwithListener);
+
+
+
+
+
+
+
+
+
+
 
 
 
